@@ -1,3 +1,5 @@
+from rabbit import Rabbit
+
 class HouseRabbit (Rabbit):
     shape = "house"
     
@@ -7,4 +9,3 @@ class HouseRabbit (Rabbit):
         
     def eat_feed (self):
         print("토끼가 사료를 먹습니다.")
-

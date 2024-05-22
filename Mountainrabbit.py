@@ -1,3 +1,5 @@
+from rabbit import Rabbit
+
 class MountainRabbit(Rabbit):
   shape= "mountain"
 
